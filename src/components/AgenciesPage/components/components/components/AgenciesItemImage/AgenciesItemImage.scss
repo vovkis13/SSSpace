@@ -1,0 +1,14 @@
+@import '@styles/variables';
+
+.agencies-item-image-wrapper {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  background-color: $primary-main;
+
+  & > img {
+    object-fit: contain;
+  }
+}

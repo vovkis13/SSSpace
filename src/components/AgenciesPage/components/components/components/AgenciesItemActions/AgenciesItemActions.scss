@@ -1,0 +1,8 @@
+@import '@styles/variables';
+
+.agencies-item-actions {
+  justify-content: center;
+  border-top: 1px solid $primary-main;
+  height: 2rem;
+  flex: 1 1 auto;
+}

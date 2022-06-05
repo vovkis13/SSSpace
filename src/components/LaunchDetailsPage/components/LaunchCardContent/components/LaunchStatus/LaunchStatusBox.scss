@@ -1,0 +1,73 @@
+@import '@styles/variables';
+
+.launch-status {
+  &-box {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 3rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% / 3rem;
+
+    font-family: $default-font;
+    font-size: 1.5rem;
+    font-weight: $font-weight-bold;
+  }
+  &-popup {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    padding: 1.2rem;
+    font-family: $default-font;
+    font-size: 1rem;
+    text-align: center;
+    pointer-events: none;
+  }
+}
+
+.launch-status-box {
+  &.go {
+    color: $primary-dark;
+    background-color: $secondary-main;
+  }
+  &.tbc {
+    color: $secondary-light;
+    background-color: $primary-main;
+  }
+  &.tbd {
+    color: $white-color;
+    background-color: $light-grey;
+  }
+  &.success {
+    font-size: 1.2rem;
+    color: $white-color;
+    background-color: $success-status-color;
+  }
+  &.failure {
+    font-size: 1.2rem;
+    color: $white-color;
+    background-color: $failure-status-color;
+  }
+  &.partial-failure {
+    font-size: 0.8rem;
+    color: $white-color;
+    background-color: $failure-status-color;
+  }
+  &.hold {
+    color: $white-color;
+    background-color: $hold-status-color;
+  }
+  &.in-flight {
+    font-size: 1.2rem;
+    color: $white-color;
+    background-color: $inflight-status-color;
+  }
+}
+
+.mouse-over-popover {
+  pointer-events: none;
+}

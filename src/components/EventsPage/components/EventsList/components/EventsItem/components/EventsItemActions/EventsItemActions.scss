@@ -1,0 +1,34 @@
+@import '@styles/variables';
+
+.events-item-actions {
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  height: 4rem;
+
+  &.MuiCardActions-root {
+    padding: 0;
+  }
+
+  & &-info {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  & &-videobutton {
+    align-items: center;
+    margin-right: 2rem;
+
+    &:hover {
+      color: $primary-light;
+    }
+
+    &-icon {
+      margin-right: 0.5rem;
+    }
+
+    & &-sharebutton {
+      padding: 6rem 16rem;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.slider-card-icon-previous-arrow,
+.slider-card-icon-next-arrow {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(2);
+  cursor: pointer;
+  &:hover {
+    transform: scale(2.3);
+  }
+}

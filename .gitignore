@@ -1,0 +1,11 @@
+.eslintcache
+.env
+.env.test
+node_modules/
+coverage/
+build/
+husky.sh
+yarn-debug.log*
+yarn-error.log*
+/.vscode
+.idea/

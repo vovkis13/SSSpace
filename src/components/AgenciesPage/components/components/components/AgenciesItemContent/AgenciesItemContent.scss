@@ -1,0 +1,23 @@
+@import '@styles/variables';
+
+.agencies-item-card {
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+
+  &.MuiCardContent-root {
+    padding: 0;
+  }
+
+  & &-content {
+    margin: 0;
+    box-sizing: border-box;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $contrast-text-color;
+    border-bottom: 1px solid $primary-main;
+  }
+}

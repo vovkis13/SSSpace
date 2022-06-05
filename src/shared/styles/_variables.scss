@@ -1,0 +1,47 @@
+//colors
+$primary-main: #90caf9;
+$primary-light: #c3fdff;
+$primary-dark: #5d99c6;
+$secondary-main: #ffee58;
+$secondary-light: #ffff8b;
+$secondary-dark: #c9bc1f;
+$contrast-text-color: #212121;
+$timer-border-color: #21212180;
+$secondary-main: #ffee58;
+$light-grey: #cccccc;
+$white-color: #ffffff;
+$success-status-color: #228b22;
+$failure-status-color: #ff0000;
+$hold-status-color: #ffa500;
+$inflight-status-color: #87ceeb;
+$snackbar-background: #fc6868;
+
+//border-sizes
+$default-border-radius: 4px;
+$default-border-width: 1px;
+$goback-button-border: 2px;
+
+//fonts
+$default-font: Nunito;
+
+//breakpoints
+$tablet-breakpoint: 900px;
+$mobile-breakpoint: 640px;
+
+//font-weights
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+//delays
+$default-transition-delay: 250ms;
+
+:export {
+  primaryMain: $primary-main;
+  primaryLight: $primary-light;
+  primaryDark: $primary-dark;
+  primaryContrastText: $contrast-text-color;
+  secondaryMain: $secondary-main;
+  secondaryLight: $secondary-light;
+  secondaryDark: $secondary-dark;
+  defaultFont: $default-font;
+}

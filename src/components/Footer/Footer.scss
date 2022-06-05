@@ -1,0 +1,36 @@
+@import '@styles/variables.scss';
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 3rem;
+  overflow: hidden;
+  background: $secondary-main;
+  z-index: 4;
+}
+
+.footer-container {
+  width: 150%;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.footer-content {
+  letter-spacing: 0.1rem;
+  display: block;
+  width: 100%;
+  animation: move 3s linear infinite;
+  color: $contrast-text-color;
+}
+
+@keyframes move {
+  100% {
+    transform: translateX(-100%);
+  }
+}

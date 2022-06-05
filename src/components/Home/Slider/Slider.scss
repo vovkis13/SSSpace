@@ -1,0 +1,15 @@
+.MuiContainer-root.slider-container {
+    padding-top: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      .slider-card-icon-previous-arrow,
+      .slider-card-icon-next-arrow {
+        visibility: visible;
+      }
+    }
+  }
+
+

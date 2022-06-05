@@ -1,0 +1,1 @@
+export { SliderCardFooterMemoized } from './SliderCardFooter';
